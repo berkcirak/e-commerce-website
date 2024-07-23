@@ -1,0 +1,138 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "HP Pavilion",
+      "imageUrl": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=1232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 25,
+      "categoryId": 2,
+      "description": "Logitech G120",
+      "imageUrl": "https://images.unsplash.com/photo-1551515300-2d3b7bb80920?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Hoparlor",
+      "description": "JBL",
+      "imageUrl": "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/6925281992988-jbl-flip6-bluetooth-hoparlor-ip67-mavi-638057705677359555.jpg",
+      "price": "3000",
+      "categoryId": "2",
+      "id": 3
+    },
+    {
+      "name": "Kahve Makinesi",
+      "description": "SIEMENS KAHVE MAKINESİ",
+      "imageUrl": "https://cdn.akakce.com/z/siemens/siemens-tq905r03-tam-otomatik.jpg",
+      "price": "750",
+      "categoryId": "2",
+      "id": 4
+    },
+    {
+      "name": "Akıllı Telefon",
+      "description": "IPHONE 15",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZEk5aWVjRmFBS2tnWEF6QzlCMm5HL0pOZTBYalh5Vk90cEc1K2wwRzFGejRMeXJHUnUva2huMjl4akFHOXNwVjJ0TXdmWG8wSkNlbUlGSE83REJnTFZrL0RleEJCS3NQeGd0eUZHOFdQVmtnPT0=&traceId=1",
+      "price": "1299",
+      "categoryId": "2",
+      "id": 5
+    },
+    {
+      "name": "OYUN KONSOLU",
+      "description": "PS5 ",
+      "imageUrl": "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/788560182/788560182_1_MC/96b1bc29aa6f4214ab8e75883dbcf29b.jpg",
+      "price": "599",
+      "categoryId": "2",
+      "id": 6
+    },
+    {
+      "name": "MACBOOK",
+      "description": "MACBOOK PRO",
+      "imageUrl": "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125035432/125035432_0_MC/63705709.jpg",
+      "price": "1699",
+      "categoryId": "1",
+      "id": 7
+    },
+    {
+      "name": "TENİS RAKETİ",
+      "description": "WILSON",
+      "imageUrl": "https://aad216.a-cdn.akinoncloud.com/products/2023/12/13/851413/0ef693f7-1a43-4232-a8cf-1d6c9d03db62_size1000x1000_cropCenter.jpg",
+      "price": "399",
+      "categoryId": "5",
+      "id": 8
+    },
+    {
+      "name": "MONT",
+      "description": "COLUMBIA",
+      "imageUrl": "https://cdn.akakce.com/z/columbia/columbia-lake-22-erkek-mont.jpg",
+      "price": "599",
+      "categoryId": "3",
+      "id": 9
+    },
+    {
+      "name": "FUTBOL TOPU",
+      "description": "NIKE ",
+      "imageUrl": "https://cdn.akakce.com/z/nike/nike-sc2971-100-premier-team-5-no.jpg",
+      "price": "59",
+      "categoryId": "5",
+      "id": 10
+    },
+    {
+      "name": "TİŞÖRT",
+      "description": "LEVI'S",
+      "imageUrl": "https://productimages.hepsiburada.net/s/80/375-500/110000022474289.jpg",
+      "price": "29",
+      "categoryId": "3",
+      "id": 11
+    },
+    {
+      "name": "BUZDOLABI",
+      "description": "BOSCH",
+      "imageUrl": "https://cdn.akakce.com/z/bosch/bosch-kgn86cwe0n-kombi-no-forst.jpg",
+      "price": "899",
+      "categoryId": "4",
+      "id": 12
+    },
+    {
+      "name": "FIRIN",
+      "description": "BEKO FIRIN",
+      "imageUrl": "https://www.beko.com.tr/media/resize/7785820285_LO1_20220228_132925.png/530Wx530H/image.webp",
+      "price": "599",
+      "categoryId": "4",
+      "id": 13
+    },
+    {
+      "name": "LAPTOP",
+      "description": "ASUS LAPTOP",
+      "imageUrl": "https://dlcdnwebimgs.asus.com/gain/49401162-3a01-44f7-bf95-3ac7caee7d04/",
+      "price": "399",
+      "categoryId": "1",
+      "id": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    },
+    {
+      "id": 3,
+      "name": "Kıyafet"
+    },
+    {
+      "id": 4,
+      "name": "Beyaz Eşya"
+    },
+    {
+      "id": 5,
+      "name": "Spor"
+    }
+  ]
+}

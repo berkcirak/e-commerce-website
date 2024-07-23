@@ -1,0 +1,11 @@
+.productbox{
+    padding: 15px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: whitesmoke;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

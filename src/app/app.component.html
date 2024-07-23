@@ -1,0 +1,58 @@
+<body>
+
+<header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
+<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">BERKSTORE</a>
+<a routerLink="/aboutus" class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white">HAKKIMIZDA</a>
+</header>
+<div class="container-fluid">
+<div class="row">
+  <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
+    <div class="offcanvas-md offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+      <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a routerLink="/products" class="nav-link d-flex align-items-center gap-2 active" aria-current="page">
+              Mağaza
+            </a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/product-add-1" class="nav-link d-flex align-items-center gap-2" >
+              Ürün Ekle/Classic Forms
+            </a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/product-add-2" class="nav-link d-flex align-items-center gap-2" href="#">
+              Ürün Ekle/Reactive Forms
+            </a>
+          </li>
+        </ul>
+        <hr class="my-3">
+
+        <ul class="nav flex-column mb-auto">    
+          <li class="nav-item">
+            <a  routerLink="/link-pdf" target="_blank" class="nav-link d-flex align-items-center gap-2">
+               İade Koşulları
+            </a>
+          </li>
+
+            <div *ngIf="helpFolder">  
+              <a  class="nav-item nav-link d-flex align-items-center gap-2"
+                  (click)="helpPdf()" target="_blank">
+                Yardım Edin
+              </a>
+            </div>
+
+          </ul>
+      </div>
+    </div>
+  </div>
+  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+  <router-outlet></router-outlet>
+  </main>
+</div>
+</div>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js" integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp" crossorigin="anonymous"></script><script src="dashboard.js"></script></body>
+ 
+    

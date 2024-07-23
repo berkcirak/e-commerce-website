@@ -1,0 +1,23 @@
+/* Genel stil */
+.nav-link-custom {
+    color: #007bff; /* Mavi renk */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    padding: 8px 16px; /* İç boşluk */
+    border-radius: 4px; /* Köşeleri yuvarla */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Geçiş efektleri */
+  }
+  
+  /* Üzerine gelince */
+  .nav-link-custom:hover {
+    background-color: #e0e0e0; /* Açık gri arka plan */
+    color: #0056b3; /* Daha koyu mavi */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    transform: scale(1.05); /* Biraz büyüt */
+  }
+  
+  /* Aktif durum */
+  .nav-link-custom:active {
+    background-color: #d0d0d0; /* Daha koyu gri arka plan */
+    transform: scale(0.95); /* Biraz küçült */
+  }
+  
